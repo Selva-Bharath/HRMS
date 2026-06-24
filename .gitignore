@@ -1,0 +1,38 @@
+﻿# Python
+venv/
+backend/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+build/
+
+# Docker volumes / uploads
+backend/uploads/
+uploads/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (track the folder but not generated __pycache__)
+backend/migrations/__pycache__/
