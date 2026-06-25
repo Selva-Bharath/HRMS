@@ -95,7 +95,7 @@ try {
   ) {
 
     navigate(
-      "/dashboard"
+      "/hrms"
     );
 
   }
